@@ -14,6 +14,7 @@ from django.urls import reverse
 # # Create your views here.
 # def home(request):
 #     return redirect('registration')
+#Git Purpose testing
 def registartion(request):
     return render(request, 'registration.html')
 def create_daata(request):
